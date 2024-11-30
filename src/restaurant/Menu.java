@@ -2,7 +2,7 @@ package restaurant;
 
 import java.util.Scanner;
 
-public class Menyu {
+public class Menu  {
 
     public static void addMeal(){
         Scanner sc= new Scanner(System.in);
@@ -18,10 +18,9 @@ public class Menyu {
         meal.setCode(code);
         meal.setQuantity(quantity);
     }
-    public static void removeMeal(String code){
-        Scanner sc= new Scanner(System.in);
-        code= sc.next();
-        // if(code.equals())
+    public static void removeMeal(){
+
+
     }
     public static void showMeal(){
 
