@@ -1,7 +1,4 @@
-package book;
-
-import library.book.Book;
-import library.book.Library;
+package library.book;
 
 import java.util.Scanner;
 

@@ -1,7 +1,5 @@
 package library.book;
 
-import book.MenuUtil;
-
 import java.util.Scanner;
 
 public class Main {
