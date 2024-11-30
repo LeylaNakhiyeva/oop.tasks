@@ -18,7 +18,11 @@ public class Menu  {
         meal.setCode(code);
         meal.setQuantity(quantity);
     }
-    public static void removeMeal(){
+    public static void removeMeal(String code){
+        Meal meal= new Meal();
+        if (code.equals(meal.getCode())){
+
+        }
 
 
     }

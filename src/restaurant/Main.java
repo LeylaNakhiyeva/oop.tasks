@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
-        Admin.enterAdminPage();
+        Admin.enterAdminPasssword();
         System.out.println("Please select : ");
         String text="1. get admin page \n" +
                 "2.";
@@ -20,11 +20,11 @@ public class Main {
               }
           }
     }
-    public static void checkPassword(){
+    public static void enterAdminPage(){
         Scanner sc= new Scanner(System.in);
         System.out.println(" Please enter the password : ");
         String code= sc.next();
-      Admin.checkPassword(code);
+      Admin.enterAdminPage(code);
 
 
     }
